@@ -2,8 +2,8 @@ function konversiMenit(menit) {
     var menitnya = Math.floor(menit / 60)
     var detiknya = menit % 60
 
-    if (String(detiknya).length = 1) {
-        detiknya = "0" +detiknya
+    if (String(detiknya).length === 1) {
+        detiknya = "0" + detiknya
     }
     var hasil = menitnya + ":" + detiknya
 
